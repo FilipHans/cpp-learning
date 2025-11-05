@@ -37,11 +37,20 @@ int main(){
     student = false;
 
     std::string name = "Filip";
-    
 
+ /*
+ 
     std::cout << price << '\n';
     std::cout << x << '\n';
     std::cout << sum << '\n';
+*/
+
+
+    const double PI = 3.14159;
+    double radius = 10;
+    double circumference = 2 * radius * PI;
+
+    std::cout << circumference;
     return 0;
 
 }
